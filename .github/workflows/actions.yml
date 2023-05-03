@@ -1,6 +1,9 @@
 name: Actions Workflow
 
-on: [closed, assigned, opened, reopened]
+on: 
+    push:
+    pull_request:
+        types: [closed, assigned, opened, reopened]
 
 jobs:
   run-github-actions:

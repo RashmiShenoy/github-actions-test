@@ -3,7 +3,7 @@
 
 name: Shell commands
 #comment
-on: [push, pull_request]
+on: [pull_request]
 
 jobs:
   run-shell-command:

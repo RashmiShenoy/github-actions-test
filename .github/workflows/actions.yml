@@ -1,6 +1,6 @@
 name: Actions Workflow
 
-on: [push]
+on: [closed, assigned, opened, reopened]
 
 jobs:
   run-github-actions:
